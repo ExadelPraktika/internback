@@ -31,6 +31,7 @@ users/reset/:token - required for pass reset
 
 ### More info
 In order to use social logins easily use these npm's in ur front end:
+
 https://www.npmjs.com/package/react-google-login
 
 https://www.npmjs.com/package/react-facebook-login
