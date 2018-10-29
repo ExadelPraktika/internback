@@ -18,7 +18,7 @@ Post endpoints:
 users/signup - register a user
 users/signin - login user
 users/oauth/google - login with google
-users/oauth/google - login with facebook (doesn't work in dev env)
+users/oauth/facebook - login with facebook (doesn't work in dev env)
 users/forgot - forgot password (will receive token to entered email)
 users/reset/:token - change password with token that was received in email
 
