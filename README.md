@@ -36,6 +36,8 @@ https://www.npmjs.com/package/react-google-login
 
 https://www.npmjs.com/package/react-facebook-login
 
+Also check configuration/index.js file for social login config.
+
 There are some validations and some are missing. So make by urself :)
 
 
