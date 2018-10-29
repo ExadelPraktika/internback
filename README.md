@@ -9,22 +9,31 @@ npm i
 npm run server
 ```
 
-### Prerequisites
+### Routes
 
-What things you need to install the software and how to install them
+All api endpoints that are available
+
+Post endpoints:
+```
+users/signup - register a user
+users/signin - login user
+users/oauth/google - login with google
+users/oauth/google - login with facebook (doesn't work in dev env)
+users/forgot - forgot password (will receive token to entered email)
+users/reset/:token - change password with token that was received in email
 
 ```
-Give examples
+Get endpoints:
+```
+users/get/:id - get user by id
+users/reset/:token - required for pass reset
 ```
 
-### Installing
+### More info
+In order to use social logins easily use these npm's in ur front end:
+https://www.npmjs.com/package/react-google-login
+https://www.npmjs.com/package/react-facebook-login
 
-A step by step series of examples that tell you how to get a development env running
+There are some validations and some are missing. So make by urself :)
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
